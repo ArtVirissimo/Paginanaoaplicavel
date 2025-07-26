@@ -2,9 +2,32 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>Página Não Aplicável</title>
+  <title>✈️ NÃO APLICÁVEL ✈️</title>
+  <style>
+    body {
+      background-color: #f0f0f0;
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: Arial, sans-serif;
+    }
+
+    .piscar {
+      font-size: 48px;
+      color: #d11b1b;
+      font-weight: bold;
+      animation: blink 1s infinite;
+    }
+
+    @keyframes blink {
+      0%, 50%, 100% { opacity: 1; }
+      25%, 75% { opacity: 0; }
+    }
+  </style>
 </head>
 <body>
-  <h1 style="text-align:center; font-family:sans-serif;">NÃO APLICÁVEL</h1>
+  <div class="piscar">✈️ NÃO APLICÁVEL ✈️</div>
 </body>
 </html>
